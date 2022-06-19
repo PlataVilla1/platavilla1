@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        
+
+    </head>
+<body>
+    
+    <header class="header3" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a>
+                    <div class="buscar">
+                    <input type="text"class="buscar_texto" placeholder="buscar">
+                <a href="" class="boton"> <i><img src="img/lupa.png" width="30" height="30"></i> </a>
+                </div>
+                </a>
+                <a href="index.html">Inicio</a>
+                <a href="#servicio">Acerca de</a>
+                <a href="productos.html">Productos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+                <a class="ini-text" href="./login.html">Iniciar sesión</a>
+        </nav>
+        
+        
+        
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Contacto</h2>  
+        </section>
+
+        <!-- Contacto -->
+        <section class="contact">
+            <div class="contact__image-wrapper">
+                <img src="img/image.jpg" alt="" class="contact__image">
+            </div>
+
+            <div class="contact__right-side">
+                
+                <form action="" class="contact__form-wrapper">
+                    <br>
+                    <div class="contact__input-line">
+                        <label for="name" class="contact__label">Nombre</label>
+                        <input type="text" name="name" id="name" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="email" class="contact__label">Correo Electronico</label>
+                        <input type="email" name="email" id="email" class="contact__input">
+                    </div>
+                    
+                    <div class="contact__input-line">
+                        <label for="message" class="contact__label">Mensaje</label>
+                        <textarea type="text" name="message" id="message" class="contact__input--textarea"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" class="contact__submit-button">
+                    <br>
+                </form>
+            </div>
+        </section>
+        <br>
+        <!-- Contacto  END-->
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    
+                    <p>© 2022 All Rights Reserved.Plata Villa De Polanco</p>
+                </div>
+                <div class="social-media">
+                    <a href="#" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="#" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="#" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>

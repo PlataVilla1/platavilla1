@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../img/imgLogin/img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    min-width: 250px;
+}
+
+.container_form{
+    background-color: rgb(233, 228, 224);
+    margin-top: 60px;
+    border-radius: 15px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 130px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(41, 39, 39);
+}
+
+.boton-re{
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(239, 184, 16);
+    margin-top: 30px;
+    border: none;
+    border-bottom: 4px solid rgba(239, 183, 16, 0.89);
+    margin-left: 50px;
+
+}
+
+
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: black;
+    border-bottom: 2px solid black;
+    border-radius: 6px;
+}
+
+.check{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+
+.checkRegis{
+    margin-left: 60px;
+}
+
+label{
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+.boton{
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(239, 184, 16);
+    margin-top: 30px;
+    border: none;
+    border-bottom: 4px solid rgba(239, 183, 16, 0.89);
+    margin-left: 96px;
+}
+
+a:hover{
+    color: rgb(239, 184, 16);
+}
+
+label:hover{
+    color: rgb(239, 184, 16);
+}
+
+.boton:active{
+    background-color: rgb(248, 245, 88);
+    width: 145px;
+}
+
+.boton-re:active{
+    background-color: rgb(248, 245, 88);
+    width: 145px;
+}
+
+
